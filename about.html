@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="styles.css" />
+<link rel="icon" 
+      type="image/ico" 
+      href="https://raw.githubusercontent.com/JPShiels/set08101/main/favicon.ico">
+</head>
+
+<title>About - The Mandalorian</title>
+
+<body>
+<div class="row">
+<div class="sticky">
+	<div class="column1">
+		<div class="menucontainer"><p align="justify"><span style="font-size:30px;cursor:pointer" onclick="openNav()"><img src="https://raw.githubusercontent.com/JPShiels/set08101/main/Iron_heart.png"><div class="menutop-left"><h2><br/>M<br/>E<br/>N<br/>U</h2></div></span></div></div>
+
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="homepage.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="characters.html">Characters</a>
+  <a href="locations.html">Locations</a>
+  <a href="culture.html">Culture</a>
+  <a href="quiz.html">Quiz</a>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</div>
+
+<div class="column2">
+
+
+<center><h1> About - The Mandalorian </h1></center>
+
+<img src ="https://raw.githubusercontent.com/JPShiels/set08101/main/timeline.jpg" width="100%"/>
+<p>
+
+<div class ="container"><tb1><p align="justify">The Mandalorian is a Disney Plus show which served as the flagship show when the streaming service launched on November 12th 2019. 
+
+<p align="justify">Set nine years after the end of the Star Wars film, Return of the Jedi and approximately 30 years before The Force Awakens. The Mandalorian explores the state of the Star Wars galaxy following the defeat of the Galactic Empire, which fell to the Rebel Alliance that later formed the New Republic to pick up the pieces following the shattered Imperial rule.
+
+<p align="justify">The show follows the adventures of 'The Mandalorian', who is later identified as Din Djarin, a Mandalorian Bounty Hunter making his way across the galaxy bringing justice to the vast outlaw-filled Outer Rim.
+
+<p align="justify">The show aims to bridge the gap between the Original trilogy and the newer Sequel trilogy that Disney released following its purchase of the Star Wars IP from its creator, George Lucas. It was later revealed that The Mandalorian would be the beginning of many different Star Wars shows that would be released on the Disney streaming platform to add greater flavour to the Star Wars galaxy.
+</tb1></div>
+
+<div class ="container"><tb1><p align="justify">Below are clickable links to both the Disney Plus Streaming Service (Requires Subscription) and the Star Wars website:</tb1></div>
+
+<p>
+<div class ="container"><tb1><p align="left"><a href="https://www.disneyplus.com"/><img src="https://raw.githubusercontent.com/JPShiels/set08101/main/disneyplus.png" width="300px"></a>
+<a href="https://www.starwars.com"/><img src="https://raw.githubusercontent.com/JPShiels/set08101/main/starwars.png" width="300px"></a>
+</tb1></div>
+
+<p>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6tJFtthY0rI1x06qb8NjK0?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+<p align="right">Copyright © 2022 Walt Disney Studios 
+</div>
+
+<div class="sticky">
+<div class="column3">
+ <!-- Rectangular switch -->
+<p align="right"><img src="https://raw.githubusercontent.com/JPShiels/set08101/main/Website.png" width="100%">
+<p align="right"><label class="switch">
+  <input type="checkbox" onclick="toggleTheme()">
+  <span class="slider"></span>
+</label>
+
+
+
+<script>
+        function toggleTheme() {
+            // Obtains an array of all <link>
+            // elements.
+            // Select your element using indexing.
+            var theme = document.getElementsByTagName('link')[0];
+  
+            // Change the value of href attribute 
+            // to change the css sheet.
+            if (theme.getAttribute('href') == 'styles.css') {
+                theme.setAttribute('href', 'MANDO.css');
+            } else {
+                theme.setAttribute('href', 'styles.css');
+            }
+        }
+    </script>
+</div>
+
+
+</div>
+
+
+</body>
+
+</html>
